@@ -44,7 +44,7 @@ const ProductSection = () => {
                 />
                 <h3 className="text-lg font-bold">{product.name}</h3>
                 <p className="text-sm text-gray-900">{product.description}</p>
-                <p className="text-lg font-bold">${product.price}</p>
+                <p className="text-lg font-bold">{product.price}</p>
               </div>
               <div className="flex justify-between">
                 <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
